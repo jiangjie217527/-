@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 from scipy.interpolate import make_interp_spline
+import math
 
 MAX = 100
 
@@ -11,6 +12,9 @@ des_U = data[11][0]
 f_0 = data[9][0]
 s = int(data[12][0])
 e = int(data[13][0])
+L = data[6][0]
+C = data[7][0]
+R = data[8][0]
 # 拟合
 model = make_interp_spline(data[0][s:e], data[1][s:e])
 xs = np.linspace(data[0][s], data[0][e - 1], 5000000)
@@ -34,6 +38,7 @@ print("des_u", des_U)
 print("f(x)", ys[l], ys[r])
 print("x", xs[l], xs[r])
 print("Q", f_0/(xs[r] - xs[l]))
+print("Q_the", math.sqrt(L*C)/(R*C))
 
 plt.figure(1)
 l1 = plt.plot(data[0], data[1], label="U-f")
