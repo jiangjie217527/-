@@ -68,6 +68,6 @@ for i in range(16,22):
         I += j
     I /= 6
     l_mid_y.append(cal_l_3(I,pi/2**(2-(i-10)%3),850 if (i - 10) % 6 < 3 else 950,Xans))
-    print("在pi /",2**(2-(i-10)%3),"角度",850 if (i - 10) % 6 < 3 else 950,"电压下有",I,"平均电流")
+    print("在pi /",2**(2-(i-10)%3),"角度",850 if (i - 10) % 6 < 3 else 950,"电压下有",I,"平均电流",l_mid_y[-1],"距离")
 
 print("在y方向测得y偏转板中间位置到荧光屏距离约为",np.mean(l_mid_y))
