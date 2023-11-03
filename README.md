@@ -5,10 +5,13 @@
 2. mathplotlib
 3. pandas
 
-在使用前如果不确定有无这三个package，(如果有pip的话)请在命令行中输入以下代码
+在读取.xlsx文件的时候还可能用到openpyxl
+
+在使用前如果不确定有无这四个package，(如果有pip的话)请在命令行中输入以下代码
 
 ~~~
 pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 pip install pandas -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
+pip install openpyxl -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 ~~~
