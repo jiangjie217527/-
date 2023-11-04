@@ -15,3 +15,8 @@ pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 pip install pandas -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 pip install openpyxl -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 ~~~
+
+附：联系方式
+
+qq:509745383
+个人主页：jiangjie.xyz
