@@ -1,3 +1,15 @@
+# 目录导航
+
+MCRatio means 磁聚焦法测量Mass-to-charge ratio(荷质比)
+
+RLC means RLC电路实验
+
+MM:磁性材料基本特性研究。磁性材料(Magnetic material,MM)
+
+UB(Unbalanced bride,非平衡电桥)
+
+迈克尔逊干涉仪(Michelson interferometer,MI)
+
 # 环境配置
 
 编程语言为python.没有环境或不会使用请自行配置或联系我。

@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = np.array(pd.read_excel(io="./Mdata2.xlsx")).transpose()
+data = np.array(pd.read_excel(io="./data.xlsx")).transpose()
 x = data[0]
 y = data[2]
 
