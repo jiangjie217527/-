@@ -7,13 +7,17 @@ import stim
 import itertools
 import matplotlib.pyplot as plt
 import beliefmatching
-from numpy import dtype
-from numpy.matlib import rand
 from stimbposd import SinterDecoder_BPOSD, sinter_decoders
 import math
 import random
 import time
 import multiprocessing
+
+import torch
+import torch.nn as nn
+import torch.optim as optim
+import torchvision
+import torchvision.transforms as transforms
 
 print(stim.__version__,os.cpu_count())
 

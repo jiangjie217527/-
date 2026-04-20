@@ -7,3 +7,6 @@ beliefmatching
 stimbposd
 matplotlib
 jupyter
+
+torch
+torch_geometric

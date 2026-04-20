@@ -35,3 +35,15 @@ main.py 实现的主程序
 multi_test.py 多线程测试程序，可以理解为草稿纸。未完工
 
 steane.ipynb 测试生成color code，可以理解为草稿纸，未完工
+·
+---
+
+4.20 完成
+
+models/GNN.py 设计了一个GNN网络
+
+data_gen.py 设计了一个简单的数据生成器
+
+train.py 训练GNN并进行评估
+
+效果：约85%数据能有25%的准确度
