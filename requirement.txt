@@ -1,0 +1,9 @@
+stim
+numpy~=1.0
+scipy
+sinter
+pymatching
+beliefmatching
+stimbposd
+matplotlib
+jupyter
